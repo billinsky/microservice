@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "com.example.commonproto";
+option java_outer_classname = "ClientServiceProto";
+
+package clientservice;
+
+service ClientService {
+  rpc GetClientById (ClientIdRequest) returns (ClientResponse) {}
+}
+
+message ClientIdRequest {
+  string id = 1;
+}
+
+message ClientResponse {
+  string id = 1;
+  string nom = 2;
+  string prenom = 3;
+  string telephone = 4;
+  string adresse = 5;
+}

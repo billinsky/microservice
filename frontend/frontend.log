@@ -1,0 +1,52 @@
+
+> admin-dashboard@0.0.0 start
+> ng serve
+
+❯ Building...
+✔ Building...
+Initial chunk files | Names                  |  Raw size
+main.js             | main                   |  49.29 kB |
+chunk-HYJPMX6O.js   | -                      |   1.96 kB |
+chunk-PZ5AY32C.js   | -                      | 234 bytes |
+styles.css          | styles                 |  96 bytes |
+
+                    | Initial total          |  51.58 kB
+
+Lazy chunk files    | Names                  |  Raw size
+chunk-GCNUG7QY.js   | client-list-component  |  12.53 kB |
+chunk-YNSTJG3M.js   | order-list-component   |  11.94 kB |
+chunk-WBUSIPDY.js   | login-component        |   6.61 kB |
+chunk-RHYLUASB.js   | admin-layout-component |   5.78 kB |
+
+Application bundle generation complete. [3.062 seconds] - 2026-05-17T14:02:25.246Z
+
+Watch mode enabled. Watching for file changes...
+NOTE: Raw file sizes do not reflect development server per-request transformations.
+  ➜  Local:   http://localhost:4200/
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  3.75 kB |
+
+Application bundle generation complete. [0.452 seconds] - 2026-05-17T14:05:04.874Z
+
+Component update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names | Raw size
+main.js             | main  |  3.79 kB |
+
+Application bundle generation complete. [0.177 seconds] - 2026-05-17T14:06:31.994Z
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names           | Raw size
+main.js             | main            |  3.79 kB |
+
+Lazy chunk files    | Names           | Raw size
+chunk-HKADMO5T.js   | login-component |  7.18 kB |
+
+Application bundle generation complete. [0.751 seconds] - 2026-05-17T14:11:41.101Z
+
+Page reload sent to client(s).
