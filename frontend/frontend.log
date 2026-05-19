@@ -50,3 +50,1306 @@ chunk-HKADMO5T.js   | login-component |  7.18 kB |
 Application bundle generation complete. [0.751 seconds] - 2026-05-17T14:11:41.101Z
 
 Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names                  |  Raw size
+main.js             | main                   |   3.79 kB |
+chunk-SMHXXL2B.js   | -                      |   1.96 kB |
+chunk-SG2LYVAH.js   | -                      | 894 bytes |
+
+Lazy chunk files    | Names                  |  Raw size
+chunk-NBAABKUK.js   | client-list-component  |  22.16 kB |
+chunk-6YIJSX7A.js   | order-list-component   |  11.94 kB |
+chunk-6327ZRXX.js   | login-component        |   7.18 kB |
+chunk-OL4VY53C.js   | admin-layout-component |   5.78 kB |
+
+Application bundle generation complete. [3.516 seconds] - 2026-05-19T20:05:58.650Z
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names                 | Raw size
+main.js             | main                  |  3.79 kB |
+
+Lazy chunk files    | Names                 | Raw size
+chunk-LGFVDF3Y.js   | order-list-component  | 21.58 kB |
+chunk-IKPBHBHI.js   | client-list-component | 20.77 kB |
+chunk-MAP4HX2O.js   | -                     |  1.39 kB |
+
+Application bundle generation complete. [0.768 seconds] - 2026-05-19T20:06:21.437Z
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names  |  Raw size
+styles.css          | styles | 325 bytes |
+
+Application bundle generation complete. [0.045 seconds] - 2026-05-19T20:06:35.545Z
+
+Stylesheet update sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names              | Raw size
+main.js             | main               |  3.91 kB |
+
+Lazy chunk files    | Names              | Raw size
+chunk-74ODWGID.js   | register-component |  7.84 kB |
+
+Application bundle generation complete. [2.639 seconds] - 2026-05-19T20:10:08.103Z
+
+Page reload sent to client(s).
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [1.666 seconds] - 2026-05-19T20:13:27.234Z
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2354: This syntax requires an imported helper but module 'tslib' cannot be found.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.ts:4:0:
+[37m      4 │ [32m@Component({[37m
+        ╵ [32m~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2354: This syntax requires an imported helper but module 'tslib' cannot be found.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/core/services/auth.service.ts:6:0:
+[37m      6 │ [32m@Injectable({[37m
+        ╵ [32m~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2354: This syntax requires an imported helper but module 'tslib' cannot be found.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/core/services/client.service.ts:5:0:
+[37m      5 │ [32m@Injectable({ providedIn: 'root' })[37m
+        ╵ [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2354: This syntax requires an imported helper but module 'tslib' cannot be found.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/core/services/order.service.ts:5:0:
+[37m      5 │ [32m@Injectable({ providedIn: 'root' })[37m
+        ╵ [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2354: This syntax requires an imported helper but module 'tslib' cannot be found.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/auth/login/login.component.ts:7:0:
+[37m      7 │ [32m@Component({[37m
+        ╵ [32m~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2354: This syntax requires an imported helper but module 'tslib' cannot be found.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/auth/register/register.component.ts:8:0:
+[37m      8 │ [32m@Component({[37m
+        ╵ [32m~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2354: This syntax requires an imported helper but module 'tslib' cannot be found.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/clients/client-list.component.ts:6:0:
+[37m      6 │ [32m@Component({[37m
+        ╵ [32m~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2354: This syntax requires an imported helper but module 'tslib' cannot be found.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/orders/order-list.component.ts:7:0:
+[37m      7 │ [32m@Component({[37m
+        ╵ [32m~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2354: This syntax requires an imported helper but module 'tslib' cannot be found.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/layout/admin-layout/admin-layout.component.ts:5:0:
+[37m      5 │ [32m@Component({[37m
+        ╵ [32m~~~~~~~~~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.839 seconds] - 2026-05-19T20:13:28.088Z
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@angular/core' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.config.ts:1:62:
+[37m      1 │ ...plicationConfig, provideZoneChangeDetection } from [32m'@angular/core'[37m;
+        ╵                                                       [32m~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@angular/router' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.config.ts:2:30:
+[37m      2 │ import { provideRouter } from [32m'@angular/router'[37m;
+        ╵                               [32m~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@angular/common/http' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.config.ts:3:52:
+[37m      3 │ ... provideHttpClient, withInterceptors } from [32m'@angular/common/http'[37m;
+        ╵                                                [32m~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@angular/router' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.routes.ts:1:23:
+[37m      1 │ import { Routes } from [32m'@angular/router'[37m;
+        ╵                        [32m~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@angular/core' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.ts:1:34:
+[37m      1 │ import { Component, signal } from [32m'@angular/core'[37m;
+        ╵                                   [32m~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@angular/router' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.ts:2:29:
+[37m      2 │ import { RouterOutlet } from [32m'@angular/router'[37m;
+        ╵                              [32m~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2354: This syntax requires an imported helper but module 'tslib' cannot be found.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.ts:4:0:
+[37m      4 │ [32m@Component({[37m
+        ╵ [32m~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.ts:7:12:
+[37m      7 │   imports: [[32mRouterOutlet[37m],
+        ╵             [32m~~~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    src/app/app.ts:7:12:
+[37m      7 │   imports: [[32mRouterOutlet[37m],
+        ╵             [32m~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@angular/core' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/core/guards/auth.guard.ts:1:23:
+[37m      1 │ import { inject } from [32m'@angular/core'[37m;
+        ╵                        [32m~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@angular/router' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/core/guards/auth.guard.ts:2:38:
+[37m      2 │ import { CanActivateFn, Router } from [32m'@angular/router'[37m;
+        ╵                                       [32m~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'route' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/core/guards/auth.guard.ts:5:41:
+[37m      5 │ export const authGuard: CanActivateFn = ([32mroute[37m, state) => {
+        ╵                                          [32m~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'state' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/core/guards/auth.guard.ts:5:48:
+[37m      5 │ export const authGuard: CanActivateFn = (route, [32mstate[37m) => {
+        ╵                                                 [32m~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@angular/common/http' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/core/interceptors/auth.interceptor.ts:1:34:
+[37m      1 │ import { HttpInterceptorFn } from [32m'@angular/common/http'[37m;
+        ╵                                   [32m~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@angular/core' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/core/interceptors/auth.interceptor.ts:2:23:
+[37m      2 │ import { inject } from [32m'@angular/core'[37m;
+        ╵                        [32m~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'req' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/core/interceptors/auth.interceptor.ts:5:51:
+[37m      5 │ export const authInterceptor: HttpInterceptorFn = ([32mreq[37m, next) => {
+        ╵                                                    [32m~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'next' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/core/interceptors/auth.interceptor.ts:5:56:
+[37m      5 │ export const authInterceptor: HttpInterceptorFn = (req, [32mnext[37m) => {
+        ╵                                                         [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@angular/core' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/core/services/auth.service.ts:1:27:
+[37m      1 │ import { Injectable } from [32m'@angular/core'[37m;
+        ╵                            [32m~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@angular/common/http' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/core/services/auth.service.ts:2:27:
+[37m      2 │ import { HttpClient } from [32m'@angular/common/http'[37m;
+        ╵                            [32m~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@angular/router' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/core/services/auth.service.ts:4:23:
+[37m      4 │ import { Router } from [32m'@angular/router'[37m;
+        ╵                        [32m~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2354: This syntax requires an imported helper but module 'tslib' cannot be found.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/core/services/auth.service.ts:6:0:
+[37m      6 │ [32m@Injectable({[37m
+        ╵ [32m~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@angular/core' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/core/services/client.service.ts:1:27:
+[37m      1 │ import { Injectable } from [32m'@angular/core'[37m;
+        ╵                            [32m~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@angular/common/http' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/core/services/client.service.ts:2:27:
+[37m      2 │ import { HttpClient } from [32m'@angular/common/http'[37m;
+        ╵                            [32m~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2354: This syntax requires an imported helper but module 'tslib' cannot be found.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/core/services/client.service.ts:5:0:
+[37m      5 │ [32m@Injectable({ providedIn: 'root' })[37m
+        ╵ [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@angular/core' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/core/services/order.service.ts:1:27:
+[37m      1 │ import { Injectable } from [32m'@angular/core'[37m;
+        ╵                            [32m~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@angular/common/http' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/core/services/order.service.ts:2:27:
+[37m      2 │ import { HttpClient } from [32m'@angular/common/http'[37m;
+        ╵                            [32m~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2354: This syntax requires an imported helper but module 'tslib' cannot be found.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/core/services/order.service.ts:5:0:
+[37m      5 │ [32m@Injectable({ providedIn: 'root' })[37m
+        ╵ [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@angular/core' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/auth/login/login.component.ts:1:26:
+[37m      1 │ import { Component } from [32m'@angular/core'[37m;
+        ╵                           [32m~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@angular/common' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/auth/login/login.component.ts:2:29:
+[37m      2 │ import { CommonModule } from [32m'@angular/common'[37m;
+        ╵                              [32m~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@angular/forms' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/auth/login/login.component.ts:3:28:
+[37m      3 │ import { FormsModule } from [32m'@angular/forms'[37m;
+        ╵                             [32m~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@angular/router' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/auth/login/login.component.ts:5:23:
+[37m      5 │ import { Router } from [32m'@angular/router'[37m;
+        ╵                        [32m~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2354: This syntax requires an imported helper but module 'tslib' cannot be found.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/auth/login/login.component.ts:7:0:
+[37m      7 │ [32m@Component({[37m
+        ╵ [32m~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG2003: No suitable injection token for parameter 'router' of class 'LoginComponent'.
+  Consider using the @Inject decorator to specify an injection token.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/auth/login/login.component.ts:31:56:
+[37m      31 │ ...uctor(private authService: AuthService, private [32mrouter[37m: Router) {}
+         ╵                                                    [32m~~~~~~[0m
+
+  This type does not have a value, so it cannot be used as injection token.
+
+    src/app/features/auth/login/login.component.ts:31:64:
+[37m      31 │ ...uctor(private authService: AuthService, private router: [32mRouter[37m) {}
+         ╵                                                            [32m~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@angular/core' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/auth/register/register.component.ts:1:26:
+[37m      1 │ import { Component } from [32m'@angular/core'[37m;
+        ╵                           [32m~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@angular/common' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/auth/register/register.component.ts:2:29:
+[37m      2 │ import { CommonModule } from [32m'@angular/common'[37m;
+        ╵                              [32m~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@angular/forms' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/auth/register/register.component.ts:3:28:
+[37m      3 │ import { FormsModule } from [32m'@angular/forms'[37m;
+        ╵                             [32m~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@angular/common/http' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/auth/register/register.component.ts:5:27:
+[37m      5 │ import { HttpClient } from [32m'@angular/common/http'[37m;
+        ╵                            [32m~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@angular/router' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/auth/register/register.component.ts:6:23:
+[37m      6 │ import { Router } from [32m'@angular/router'[37m;
+        ╵                        [32m~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2354: This syntax requires an imported helper but module 'tslib' cannot be found.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/auth/register/register.component.ts:8:0:
+[37m      8 │ [32m@Component({[37m
+        ╵ [32m~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG2003: No suitable injection token for parameter 'http' of class 'RegisterComponent'.
+  Consider using the @Inject decorator to specify an injection token.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/auth/register/register.component.ts:32:22:
+[37m      32 │   constructor(private [32mhttp[37m: HttpClient, private router: Router) {}
+         ╵                       [32m~~~~[0m
+
+  This type does not have a value, so it cannot be used as injection token.
+
+    src/app/features/auth/register/register.component.ts:32:28:
+[37m      32 │   constructor(private http: [32mHttpClient[37m, private router: Router) {}
+         ╵                             [32m~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@angular/core' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/clients/client-list.component.ts:1:34:
+[37m      1 │ import { Component, OnInit } from [32m'@angular/core'[37m;
+        ╵                                   [32m~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@angular/common' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/clients/client-list.component.ts:2:29:
+[37m      2 │ import { CommonModule } from [32m'@angular/common'[37m;
+        ╵                              [32m~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@angular/forms' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/clients/client-list.component.ts:3:28:
+[37m      3 │ import { FormsModule } from [32m'@angular/forms'[37m;
+        ╵                             [32m~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2354: This syntax requires an imported helper but module 'tslib' cannot be found.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/clients/client-list.component.ts:6:0:
+[37m      6 │ [32m@Component({[37m
+        ╵ [32m~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/clients/client-list.component.ts:9:12:
+[37m      9 │   imports: [[32mCommonModule[37m, FormsModule],
+        ╵             [32m~~~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    src/app/features/clients/client-list.component.ts:9:12:
+[37m      9 │   imports: [[32mCommonModule[37m, FormsModule],
+        ╵             [32m~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/clients/client-list.component.ts:9:26:
+[37m      9 │   imports: [CommonModule, [32mFormsModule[37m],
+        ╵                           [32m~~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    src/app/features/clients/client-list.component.ts:9:26:
+[37m      9 │   imports: [CommonModule, [32mFormsModule[37m],
+        ╵                           [32m~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@angular/core' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/orders/order-list.component.ts:1:34:
+[37m      1 │ import { Component, OnInit } from [32m'@angular/core'[37m;
+        ╵                                   [32m~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@angular/common' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/orders/order-list.component.ts:2:29:
+[37m      2 │ import { CommonModule } from [32m'@angular/common'[37m;
+        ╵                              [32m~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@angular/forms' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/orders/order-list.component.ts:3:28:
+[37m      3 │ import { FormsModule } from [32m'@angular/forms'[37m;
+        ╵                             [32m~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2354: This syntax requires an imported helper but module 'tslib' cannot be found.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/orders/order-list.component.ts:7:0:
+[37m      7 │ [32m@Component({[37m
+        ╵ [32m~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/orders/order-list.component.ts:10:12:
+[37m      10 │   imports: [[32mCommonModule[37m, FormsModule],
+         ╵             [32m~~~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    src/app/features/orders/order-list.component.ts:10:12:
+[37m      10 │   imports: [[32mCommonModule[37m, FormsModule],
+         ╵             [32m~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/orders/order-list.component.ts:10:26:
+[37m      10 │   imports: [CommonModule, [32mFormsModule[37m],
+         ╵                           [32m~~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    src/app/features/orders/order-list.component.ts:10:26:
+[37m      10 │   imports: [CommonModule, [32mFormsModule[37m],
+         ╵                           [32m~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@angular/core' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/layout/admin-layout/admin-layout.component.ts:1:26:
+[37m      1 │ import { Component } from [32m'@angular/core'[37m;
+        ╵                           [32m~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@angular/router' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/layout/admin-layout/admin-layout.component.ts:2:59:
+[37m      2 │ ...outerOutlet, RouterLink, RouterLinkActive } from [32m'@angular/router'[37m;
+        ╵                                                     [32m~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2354: This syntax requires an imported helper but module 'tslib' cannot be found.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/layout/admin-layout/admin-layout.component.ts:5:0:
+[37m      5 │ [32m@Component({[37m
+        ╵ [32m~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/layout/admin-layout/admin-layout.component.ts:8:12:
+[37m      8 │   imports: [[32mRouterOutlet[37m, RouterLink, RouterLinkActive],
+        ╵             [32m~~~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    src/app/layout/admin-layout/admin-layout.component.ts:8:12:
+[37m      8 │   imports: [[32mRouterOutlet[37m, RouterLink, RouterLinkActive],
+        ╵             [32m~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/layout/admin-layout/admin-layout.component.ts:8:26:
+[37m      8 │   imports: [RouterOutlet, [32mRouterLink[37m, RouterLinkActive],
+        ╵                           [32m~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    src/app/layout/admin-layout/admin-layout.component.ts:8:26:
+[37m      8 │   imports: [RouterOutlet, [32mRouterLink[37m, RouterLinkActive],
+        ╵                           [32m~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/layout/admin-layout/admin-layout.component.ts:8:38:
+[37m      8 │   imports: [RouterOutlet, RouterLink, [32mRouterLinkActive[37m],
+        ╵                                       [32m~~~~~~~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    src/app/layout/admin-layout/admin-layout.component.ts:8:38:
+[37m      8 │   imports: [RouterOutlet, RouterLink, [32mRouterLinkActive[37m],
+        ╵                                       [32m~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@angular/platform-browser' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/main.ts:1:37:
+[37m      1 │ import { bootstrapApplication } from [32m'@angular/platform-browser'[37m;
+        ╵                                      [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'err' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/main.ts:6:10:
+[37m      6 │   .catch(([32merr[37m) => console.error(err));
+        ╵           [32m~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.246 seconds] - 2026-05-19T20:13:28.343Z
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS6053: File '/app/frontend/node_modules/typescript/lib/lib.es2022.full.d.ts' not found.
+  The file is in the program because:
+    Default library for target 'es2022'[0m [1m[35m[plugin angular-compiler][0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2318: Cannot find global type 'Array'.[0m [1m[35m[plugin angular-compiler][0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2318: Cannot find global type 'Boolean'.[0m [1m[35m[plugin angular-compiler][0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2318: Cannot find global type 'CallableFunction'.[0m [1m[35m[plugin angular-compiler][0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2318: Cannot find global type 'Function'.[0m [1m[35m[plugin angular-compiler][0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2318: Cannot find global type 'IArguments'.[0m [1m[35m[plugin angular-compiler][0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2318: Cannot find global type 'NewableFunction'.[0m [1m[35m[plugin angular-compiler][0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2318: Cannot find global type 'Number'.[0m [1m[35m[plugin angular-compiler][0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2318: Cannot find global type 'Object'.[0m [1m[35m[plugin angular-compiler][0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2318: Cannot find global type 'Promise'.[0m [1m[35m[plugin angular-compiler][0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2318: Cannot find global type 'RegExp'.[0m [1m[35m[plugin angular-compiler][0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2318: Cannot find global type 'String'.[0m [1m[35m[plugin angular-compiler][0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2318: Cannot find global type 'Promise'.[0m [1m[35m[plugin angular-compiler][0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@angular/core' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.config.ts:1:62:
+[37m      1 │ ...plicationConfig, provideZoneChangeDetection } from [32m'@angular/core'[37m;
+        ╵                                                       [32m~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@angular/router' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.config.ts:2:30:
+[37m      2 │ import { provideRouter } from [32m'@angular/router'[37m;
+        ╵                               [32m~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@angular/common/http' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.config.ts:3:52:
+[37m      3 │ ... provideHttpClient, withInterceptors } from [32m'@angular/common/http'[37m;
+        ╵                                                [32m~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@angular/router' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.routes.ts:1:23:
+[37m      1 │ import { Routes } from [32m'@angular/router'[37m;
+        ╵                        [32m~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2711: A dynamic import call returns a 'Promise'. Make sure you have a declaration for 'Promise' or include 'ES2015' in your '--lib' option.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.routes.ts:7:25:
+[37m      7 │ ...ent: () => [32mimport('./features/auth/login/login.component')[37m.then(...
+        ╵               [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'm' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.routes.ts:7:78:
+[37m      7 │ ..../features/auth/login/login.component').then([32mm[37m => m.LoginComponent)
+        ╵                                                 [32m^[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2711: A dynamic import call returns a 'Promise'. Make sure you have a declaration for 'Promise' or include 'ES2015' in your '--lib' option.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.routes.ts:11:25:
+[37m      11 │ ...nt: () => [32mimport('./features/auth/register/register.component')[37m...
+         ╵              [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'm' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.routes.ts:11:84:
+[37m      11 │ .../auth/register/register.component').then([32mm[37m => m.RegisterComponent)
+         ╵                                             [32m^[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2711: A dynamic import call returns a 'Promise'. Make sure you have a declaration for 'Promise' or include 'ES2015' in your '--lib' option.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.routes.ts:15:25:
+[37m      15 │ ...nt: () => [32mimport('./layout/admin-layout/admin-layout.component'[37m...
+         ╵              [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'm' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.routes.ts:15:85:
+[37m      15 │ ...layout/admin-layout.component').then([32mm[37m => m.AdminLayoutComponent),
+         ╵                                         [32m^[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2711: A dynamic import call returns a 'Promise'. Make sure you have a declaration for 'Promise' or include 'ES2015' in your '--lib' option.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.routes.ts:18:46:
+[37m      18 │ ...nt: () => [32mimport('./features/clients/client-list.component')[37m.th...
+         ╵              [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'm' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.routes.ts:18:102:
+[37m      18 │ ...lients/client-list.component').then([32mm[37m => m.ClientListComponent) },
+         ╵                                        [32m^[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2711: A dynamic import call returns a 'Promise'. Make sure you have a declaration for 'Promise' or include 'ES2015' in your '--lib' option.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.routes.ts:19:45:
+[37m      19 │ ...nt: () => [32mimport('./features/orders/order-list.component')[37m.then...
+         ╵              [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'm' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.routes.ts:19:99:
+[37m      19 │ ...s/orders/order-list.component').then([32mm[37m => m.OrderListComponent) },
+         ╵                                         [32m^[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@angular/core' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.ts:1:34:
+[37m      1 │ import { Component, signal } from [32m'@angular/core'[37m;
+        ╵                                   [32m~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@angular/router' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.ts:2:29:
+[37m      2 │ import { RouterOutlet } from [32m'@angular/router'[37m;
+        ╵                              [32m~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2354: This syntax requires an imported helper but module 'tslib' cannot be found.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.ts:4:0:
+[37m      4 │ [32m@Component({[37m
+        ╵ [32m~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.ts:7:12:
+[37m      7 │   imports: [[32mRouterOutlet[37m],
+        ╵             [32m~~~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    src/app/app.ts:7:12:
+[37m      7 │   imports: [[32mRouterOutlet[37m],
+        ╵             [32m~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@angular/core' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/core/guards/auth.guard.ts:1:23:
+[37m      1 │ import { inject } from [32m'@angular/core'[37m;
+        ╵                        [32m~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@angular/router' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/core/guards/auth.guard.ts:2:38:
+[37m      2 │ import { CanActivateFn, Router } from [32m'@angular/router'[37m;
+        ╵                                       [32m~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'route' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/core/guards/auth.guard.ts:5:41:
+[37m      5 │ export const authGuard: CanActivateFn = ([32mroute[37m, state) => {
+        ╵                                          [32m~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'state' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/core/guards/auth.guard.ts:5:48:
+[37m      5 │ export const authGuard: CanActivateFn = (route, [32mstate[37m) => {
+        ╵                                                 [32m~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@angular/common/http' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/core/interceptors/auth.interceptor.ts:1:34:
+[37m      1 │ import { HttpInterceptorFn } from [32m'@angular/common/http'[37m;
+        ╵                                   [32m~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@angular/core' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/core/interceptors/auth.interceptor.ts:2:23:
+[37m      2 │ import { inject } from [32m'@angular/core'[37m;
+        ╵                        [32m~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'req' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/core/interceptors/auth.interceptor.ts:5:51:
+[37m      5 │ export const authInterceptor: HttpInterceptorFn = ([32mreq[37m, next) => {
+        ╵                                                    [32m~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'next' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/core/interceptors/auth.interceptor.ts:5:56:
+[37m      5 │ export const authInterceptor: HttpInterceptorFn = (req, [32mnext[37m) => {
+        ╵                                                         [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@angular/core' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/core/services/auth.service.ts:1:27:
+[37m      1 │ import { Injectable } from [32m'@angular/core'[37m;
+        ╵                            [32m~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@angular/common/http' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/core/services/auth.service.ts:2:27:
+[37m      2 │ import { HttpClient } from [32m'@angular/common/http'[37m;
+        ╵                            [32m~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module 'rxjs' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/core/services/auth.service.ts:3:49:
+[37m      3 │ import { BehaviorSubject, Observable, tap } from [32m'rxjs'[37m;
+        ╵                                                  [32m~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@angular/router' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/core/services/auth.service.ts:4:23:
+[37m      4 │ import { Router } from [32m'@angular/router'[37m;
+        ╵                        [32m~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2354: This syntax requires an imported helper but module 'tslib' cannot be found.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/core/services/auth.service.ts:6:0:
+[37m      6 │ [32m@Injectable({[37m
+        ╵ [32m~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2304: Cannot find name 'localStorage'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/core/services/auth.service.ts:14:17:
+[37m      14 │     const user = [32mlocalStorage[37m.getItem('currentUser');
+         ╵                  [32m~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2304: Cannot find name 'JSON'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/core/services/auth.service.ts:16:35:
+[37m      16 │       this.currentUserSubject.next([32mJSON[37m.parse(user));
+         ╵                                    [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2304: Cannot find name 'localStorage'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/core/services/auth.service.ts:25:8:
+[37m      25 │         [32mlocalStorage[37m.setItem('currentUser', JSON.stringify(user));
+         ╵         [32m~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2304: Cannot find name 'JSON'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/core/services/auth.service.ts:25:44:
+[37m      25 │         localStorage.setItem('currentUser', [32mJSON[37m.stringify(user));
+         ╵                                             [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2304: Cannot find name 'localStorage'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/core/services/auth.service.ts:32:4:
+[37m      32 │     [32mlocalStorage[37m.removeItem('currentUser');
+         ╵     [32m~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@angular/core' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/core/services/client.service.ts:1:27:
+[37m      1 │ import { Injectable } from [32m'@angular/core'[37m;
+        ╵                            [32m~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@angular/common/http' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/core/services/client.service.ts:2:27:
+[37m      2 │ import { HttpClient } from [32m'@angular/common/http'[37m;
+        ╵                            [32m~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module 'rxjs' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/core/services/client.service.ts:3:27:
+[37m      3 │ import { Observable } from [32m'rxjs'[37m;
+        ╵                            [32m~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2354: This syntax requires an imported helper but module 'tslib' cannot be found.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/core/services/client.service.ts:5:0:
+[37m      5 │ [32m@Injectable({ providedIn: 'root' })[37m
+        ╵ [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@angular/core' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/core/services/order.service.ts:1:27:
+[37m      1 │ import { Injectable } from [32m'@angular/core'[37m;
+        ╵                            [32m~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@angular/common/http' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/core/services/order.service.ts:2:27:
+[37m      2 │ import { HttpClient } from [32m'@angular/common/http'[37m;
+        ╵                            [32m~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module 'rxjs' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/core/services/order.service.ts:3:27:
+[37m      3 │ import { Observable } from [32m'rxjs'[37m;
+        ╵                            [32m~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2354: This syntax requires an imported helper but module 'tslib' cannot be found.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/core/services/order.service.ts:5:0:
+[37m      5 │ [32m@Injectable({ providedIn: 'root' })[37m
+        ╵ [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@angular/core' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/auth/login/login.component.ts:1:26:
+[37m      1 │ import { Component } from [32m'@angular/core'[37m;
+        ╵                           [32m~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@angular/common' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/auth/login/login.component.ts:2:29:
+[37m      2 │ import { CommonModule } from [32m'@angular/common'[37m;
+        ╵                              [32m~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@angular/forms' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/auth/login/login.component.ts:3:28:
+[37m      3 │ import { FormsModule } from [32m'@angular/forms'[37m;
+        ╵                             [32m~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@angular/router' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/auth/login/login.component.ts:5:23:
+[37m      5 │ import { Router } from [32m'@angular/router'[37m;
+        ╵                        [32m~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2354: This syntax requires an imported helper but module 'tslib' cannot be found.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/auth/login/login.component.ts:7:0:
+[37m      7 │ [32m@Component({[37m
+        ╵ [32m~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG2003: No suitable injection token for parameter 'router' of class 'LoginComponent'.
+  Consider using the @Inject decorator to specify an injection token.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/auth/login/login.component.ts:31:56:
+[37m      31 │ ...uctor(private authService: AuthService, private [32mrouter[37m: Router) {}
+         ╵                                                    [32m~~~~~~[0m
+
+  This type does not have a value, so it cannot be used as injection token.
+
+    src/app/features/auth/login/login.component.ts:31:64:
+[37m      31 │ ...uctor(private authService: AuthService, private router: [32mRouter[37m) {}
+         ╵                                                            [32m~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'err' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/auth/login/login.component.ts:36:14:
+[37m      36 │       error: ([32merr[37m) => {
+         ╵               [32m~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@angular/core' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/auth/register/register.component.ts:1:26:
+[37m      1 │ import { Component } from [32m'@angular/core'[37m;
+        ╵                           [32m~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@angular/common' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/auth/register/register.component.ts:2:29:
+[37m      2 │ import { CommonModule } from [32m'@angular/common'[37m;
+        ╵                              [32m~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@angular/forms' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/auth/register/register.component.ts:3:28:
+[37m      3 │ import { FormsModule } from [32m'@angular/forms'[37m;
+        ╵                             [32m~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@angular/common/http' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/auth/register/register.component.ts:5:27:
+[37m      5 │ import { HttpClient } from [32m'@angular/common/http'[37m;
+        ╵                            [32m~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@angular/router' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/auth/register/register.component.ts:6:23:
+[37m      6 │ import { Router } from [32m'@angular/router'[37m;
+        ╵                        [32m~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2354: This syntax requires an imported helper but module 'tslib' cannot be found.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/auth/register/register.component.ts:8:0:
+[37m      8 │ [32m@Component({[37m
+        ╵ [32m~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG2003: No suitable injection token for parameter 'http' of class 'RegisterComponent'.
+  Consider using the @Inject decorator to specify an injection token.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/auth/register/register.component.ts:32:22:
+[37m      32 │   constructor(private [32mhttp[37m: HttpClient, private router: Router) {}
+         ╵                       [32m~~~~[0m
+
+  This type does not have a value, so it cannot be used as injection token.
+
+    src/app/features/auth/register/register.component.ts:32:28:
+[37m      32 │   constructor(private http: [32mHttpClient[37m, private router: Router) {}
+         ╵                             [32m~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@angular/core' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/clients/client-list.component.ts:1:34:
+[37m      1 │ import { Component, OnInit } from [32m'@angular/core'[37m;
+        ╵                                   [32m~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@angular/common' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/clients/client-list.component.ts:2:29:
+[37m      2 │ import { CommonModule } from [32m'@angular/common'[37m;
+        ╵                              [32m~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@angular/forms' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/clients/client-list.component.ts:3:28:
+[37m      3 │ import { FormsModule } from [32m'@angular/forms'[37m;
+        ╵                             [32m~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2354: This syntax requires an imported helper but module 'tslib' cannot be found.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/clients/client-list.component.ts:6:0:
+[37m      6 │ [32m@Component({[37m
+        ╵ [32m~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/clients/client-list.component.ts:9:12:
+[37m      9 │   imports: [[32mCommonModule[37m, FormsModule],
+        ╵             [32m~~~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    src/app/features/clients/client-list.component.ts:9:12:
+[37m      9 │   imports: [[32mCommonModule[37m, FormsModule],
+        ╵             [32m~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/clients/client-list.component.ts:9:26:
+[37m      9 │   imports: [CommonModule, [32mFormsModule[37m],
+        ╵                           [32m~~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    src/app/features/clients/client-list.component.ts:9:26:
+[37m      9 │   imports: [CommonModule, [32mFormsModule[37m],
+        ╵                           [32m~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'data' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/clients/client-list.component.ts:116:15:
+[37m      116 │         next: ([32mdata[37m) => this.clients = data,
+          ╵                [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2304: Cannot find name 'confirm'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/clients/client-list.component.ts:152:7:
+[37m      152 │     if([32mconfirm[37m('Are you sure you want to delete this client?')) {
+          ╵        [32m~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@angular/core' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/orders/order-list.component.ts:1:34:
+[37m      1 │ import { Component, OnInit } from [32m'@angular/core'[37m;
+        ╵                                   [32m~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@angular/common' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/orders/order-list.component.ts:2:29:
+[37m      2 │ import { CommonModule } from [32m'@angular/common'[37m;
+        ╵                              [32m~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@angular/forms' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/orders/order-list.component.ts:3:28:
+[37m      3 │ import { FormsModule } from [32m'@angular/forms'[37m;
+        ╵                             [32m~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2354: This syntax requires an imported helper but module 'tslib' cannot be found.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/orders/order-list.component.ts:7:0:
+[37m      7 │ [32m@Component({[37m
+        ╵ [32m~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/orders/order-list.component.ts:10:12:
+[37m      10 │   imports: [[32mCommonModule[37m, FormsModule],
+         ╵             [32m~~~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    src/app/features/orders/order-list.component.ts:10:12:
+[37m      10 │   imports: [[32mCommonModule[37m, FormsModule],
+         ╵             [32m~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/orders/order-list.component.ts:10:26:
+[37m      10 │   imports: [CommonModule, [32mFormsModule[37m],
+         ╵                           [32m~~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    src/app/features/orders/order-list.component.ts:10:26:
+[37m      10 │   imports: [CommonModule, [32mFormsModule[37m],
+         ╵                           [32m~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'data' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/orders/order-list.component.ts:120:15:
+[37m      120 │         next: ([32mdata[37m) => this.orders = data,
+          ╵                [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'data' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/orders/order-list.component.ts:127:15:
+[37m      127 │         next: ([32mdata[37m) => this.clients = data,
+          ╵                [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2304: Cannot find name 'confirm'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/orders/order-list.component.ts:163:7:
+[37m      163 │     if([32mconfirm[37m('Are you sure you want to delete this order?')) {
+          ╵        [32m~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@angular/core' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/layout/admin-layout/admin-layout.component.ts:1:26:
+[37m      1 │ import { Component } from [32m'@angular/core'[37m;
+        ╵                           [32m~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@angular/router' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/layout/admin-layout/admin-layout.component.ts:2:59:
+[37m      2 │ ...outerOutlet, RouterLink, RouterLinkActive } from [32m'@angular/router'[37m;
+        ╵                                                     [32m~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2354: This syntax requires an imported helper but module 'tslib' cannot be found.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/layout/admin-layout/admin-layout.component.ts:5:0:
+[37m      5 │ [32m@Component({[37m
+        ╵ [32m~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/layout/admin-layout/admin-layout.component.ts:8:12:
+[37m      8 │   imports: [[32mRouterOutlet[37m, RouterLink, RouterLinkActive],
+        ╵             [32m~~~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    src/app/layout/admin-layout/admin-layout.component.ts:8:12:
+[37m      8 │   imports: [[32mRouterOutlet[37m, RouterLink, RouterLinkActive],
+        ╵             [32m~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/layout/admin-layout/admin-layout.component.ts:8:26:
+[37m      8 │   imports: [RouterOutlet, [32mRouterLink[37m, RouterLinkActive],
+        ╵                           [32m~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    src/app/layout/admin-layout/admin-layout.component.ts:8:26:
+[37m      8 │   imports: [RouterOutlet, [32mRouterLink[37m, RouterLinkActive],
+        ╵                           [32m~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/layout/admin-layout/admin-layout.component.ts:8:38:
+[37m      8 │   imports: [RouterOutlet, RouterLink, [32mRouterLinkActive[37m],
+        ╵                                       [32m~~~~~~~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    src/app/layout/admin-layout/admin-layout.component.ts:8:38:
+[37m      8 │   imports: [RouterOutlet, RouterLink, [32mRouterLinkActive[37m],
+        ╵                                       [32m~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@angular/platform-browser' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/main.ts:1:37:
+[37m      1 │ import { bootstrapApplication } from [32m'@angular/platform-browser'[37m;
+        ╵                                      [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'err' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/main.ts:6:10:
+[37m      6 │   .catch(([32merr[37m) => console.error(err));
+        ╵           [32m~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2584: Cannot find name 'console'. Do you need to change your target library? Try changing the 'lib' compiler option to include 'dom'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/main.ts:6:18:
+[37m      6 │   .catch((err) => [32mconsole[37m.error(err));
+        ╵                   [32m~~~~~~~[0m
