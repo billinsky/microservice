@@ -28,7 +28,8 @@ public class SecurityConfig {
         http
             .csrf(ServerHttpSecurity.CsrfSpec::disable)
             .authorizeExchange(exchanges -> exchanges
-                .pathMatchers("/auth/**", "/clients/v3/api-docs/**", "/orders/v3/api-docs/**", "/swagger-ui/**").permitAll()
+                .pathMatchers("/auth/**").permitAll()
+                .pathMatchers("/clients/v3/api-docs/**", "/orders/v3/api-docs/**", "/swagger-ui/**", "/webjars/**").permitAll()
                 .anyExchange().authenticated()
             )
             .addFilterAt(jwtAuthenticationFilter, SecurityWebFiltersOrder.AUTHENTICATION);
@@ -42,6 +43,7 @@ public class SecurityConfig {
         corsConfig.setMaxAge(3600L);
         corsConfig.setAllowedMethods(Arrays.asList("GET", "POST", "PUT", "DELETE", "OPTIONS"));
         corsConfig.setAllowedHeaders(Arrays.asList("*"));
+        corsConfig.setAllowCredentials(true);
 
         UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
         source.registerCorsConfiguration("/**", corsConfig);

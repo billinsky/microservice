@@ -5,6 +5,7 @@ import com.example.clientservice.infrastructure.repository.ClientRepository;
 import com.example.commonproto.ClientIdRequest;
 import com.example.commonproto.ClientResponse;
 import com.example.commonproto.ClientServiceGrpc;
+import io.grpc.Status;
 import io.grpc.stub.StreamObserver;
 import lombok.RequiredArgsConstructor;
 import net.devh.boot.grpc.server.service.GrpcService;
@@ -23,13 +24,15 @@ public class ClientGrpcServer extends ClientServiceGrpc.ClientServiceImplBase {
                     .setId(client.getId())
                     .setNom(client.getNom())
                     .setPrenom(client.getPrenom())
-                    .setTelephone(client.getTelephone())
+                    .setTelephone(client.getTelephone() != null ? client.getTelephone() : "")
                     .setAdresse(client.getAdresse() != null ? client.getAdresse() : "")
                     .build();
             responseObserver.onNext(response);
+            responseObserver.onCompleted();
         } else {
-            responseObserver.onError(new RuntimeException("Client not found"));
+            responseObserver.onError(Status.NOT_FOUND
+                    .withDescription("Client not found")
+                    .asRuntimeException());
         }
-        responseObserver.onCompleted();
     }
 }

@@ -1,6 +1,6 @@
 package com.example.clientservice.infrastructure.web;
 
-import com.example.clientservice.application.dto.ClientDTO;
+import com.example.clientservice.application.dto.UserRegistrationDTO;
 import com.example.clientservice.domain.model.Client;
 import com.example.clientservice.infrastructure.repository.ClientRepository;
 import com.example.clientservice.infrastructure.security.JwtProvider;
@@ -24,8 +24,13 @@ public class AuthController {
     private final JwtProvider jwtProvider;
 
     @PostMapping("/register")
-    public String register(@RequestBody Client client) {
-        client.setPassword(passwordEncoder.encode(client.getPassword()));
+    public String register(@RequestBody UserRegistrationDTO registrationDTO) {
+        Client client = Client.builder()
+                .nom(registrationDTO.getNom())
+                .prenom(registrationDTO.getPrenom())
+                .email(registrationDTO.getEmail())
+                .password(passwordEncoder.encode(registrationDTO.getPassword()))
+                .build();
         clientRepository.save(client);
         return "User registered successfully";
     }
